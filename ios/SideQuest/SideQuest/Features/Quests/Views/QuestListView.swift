@@ -8,8 +8,7 @@
 
 import SwiftUI
 
-/// Shows a list of quests using `QuestCardView`.
-/// This view is intentionally thin: it renders `QuestCardModel`s from the ViewModel.
+// Shows a list of ALL quests using `QuestCardView`.
 struct QuestListView: View {
     @StateObject private var viewModel = QuestListViewModel()
 
