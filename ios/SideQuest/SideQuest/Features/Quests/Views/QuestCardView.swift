@@ -182,43 +182,6 @@ private extension QuestCardView {
                 onCompleteTapped: {}
             )
 
-            QuestCardView(
-                model: QuestCardModel(
-                    id: UUID(),
-                    title: "Return item",
-                    locationName: "Target • Elm Ave",
-                    proximityState: .near,
-                    distanceText: "360 m",
-                    isCompleteEnabled: false,
-                    completeButtonTitle: "Get Closer",
-                    showsDwell: false,
-                    dwellProgress: 0.0,
-                    dwellRemainingText: "",
-                    baseXPText: "Base 120 XP",
-                    totalXPText: "120 XP",
-                    bonusXPText: nil
-                ),
-                onCompleteTapped: {}
-            )
-
-            QuestCardView(
-                model: QuestCardModel(
-                    id: UUID(),
-                    title: "Buy groceries",
-                    locationName: "Whole Foods • Downtown",
-                    proximityState: .far,
-                    distanceText: "1.2 mi",
-                    isCompleteEnabled: false,
-                    completeButtonTitle: "Too Far",
-                    showsDwell: false,
-                    dwellProgress: 0.0,
-                    dwellRemainingText: "",
-                    baseXPText: "Base 80 XP",
-                    totalXPText: "240 XP",
-                    bonusXPText: "+160 bonus"
-                ),
-                onCompleteTapped: {}
-            )
         }
         .padding()
     }
